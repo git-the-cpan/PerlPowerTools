@@ -1,0 +1,55 @@
+{
+   "abstract" : "BSD utilities written in pure Perl",
+   "author" : [
+      "brian d foy <bdfoy@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.86, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "PerlPowerTools",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "App::a2p" : "0",
+            "Curses" : "0",
+            "MIME::Parser" : "0",
+            "Make" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-PerlPowerTools@rt.cpan.org",
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=PerlPowerTools"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/briandfoy/ppt.git",
+         "web" : "https://github.com/briandfoy/ppt"
+      }
+   },
+   "version" : "1.001"
+}

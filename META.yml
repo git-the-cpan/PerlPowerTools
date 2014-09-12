@@ -1,0 +1,28 @@
+---
+abstract: 'BSD utilities written in pure Perl'
+author:
+  - 'brian d foy <bdfoy@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.86, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: PerlPowerTools
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  App::a2p: 0
+  Curses: 0
+  MIME::Parser: 0
+  Make: 0
+resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=PerlPowerTools
+  repository: git://github.com/briandfoy/ppt.git
+version: 1.001
