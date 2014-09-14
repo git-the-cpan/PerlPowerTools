@@ -4,7 +4,7 @@
       "brian d foy <bdfoy@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.86, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "perl_5"
    ],
@@ -19,27 +19,7 @@
          "inc"
       ]
    },
-   "prereqs" : {
-      "build" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "0"
-         }
-      },
-      "configure" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "0"
-         }
-      },
-      "runtime" : {
-         "requires" : {
-            "App::a2p" : "0",
-            "Curses" : "0",
-            "MIME::Parser" : "0",
-            "Make" : "0"
-         }
-      }
-   },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "bugtracker" : {
          "mailto" : "bug-PerlPowerTools@rt.cpan.org",
@@ -51,5 +31,5 @@
          "web" : "https://github.com/briandfoy/ppt"
       }
    },
-   "version" : "1.002"
+   "version" : "1.002_01"
 }

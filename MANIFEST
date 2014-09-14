@@ -122,4 +122,5 @@ MANIFEST.SKIP
 META.yml
 README
 t/compile.t
+t/factor.t
 META.json                                Module JSON meta-data (added by MakeMaker)
