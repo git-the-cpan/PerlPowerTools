@@ -1,4 +1,13 @@
-#!/usr/local/bin/perl
+#!/usr/bin/perl
+
+=for info
+
+Name: arch
+Description: display system machine type
+Author: Theo Van Dinter, felicity@kluge.net
+License: 
+
+=cut
 
 use POSIX qw(uname);
 $arch=(uname())[4]; # machine ... (uname -m)

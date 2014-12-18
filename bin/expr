@@ -1,4 +1,13 @@
-#!/usr/local/bin/perl
+#!/usr/bin/perl
+
+=for info
+
+Name: expr
+Description: evaluate expression
+Author: Michael Robinson, smrf@sans.vuw.ac.nz
+License: 
+
+=cut
 
 #
 # perl implementation of expr(1)

@@ -1,4 +1,14 @@
-#!/usr/local/bin/perl -w
+#!/usr/bin/perl
+
+=for info
+
+Name: mkfifo
+Description: make named pipes
+Author: Jeffrey S. Haemer
+Author: Louis Krupp
+License: 
+
+=cut
 
 use strict;
 use POSIX "mkfifo";

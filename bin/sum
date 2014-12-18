@@ -1,4 +1,13 @@
-#!/usr/local/bin/perl
+#!/usr/bin/perl
+
+=for info
+
+Name: sum
+Description: display file checksums and block counts
+Author: Theo Van Dinter, felicity@kluge.net
+License: 
+
+=cut
 
 #
 # An implementation of the 'cksum' utility in Perl.  Written for the Perl

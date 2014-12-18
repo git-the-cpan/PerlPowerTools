@@ -19,7 +19,7 @@
          "inc"
       ]
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "mailto" : "bug-PerlPowerTools@rt.cpan.org",
@@ -27,9 +27,9 @@
       },
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/briandfoy/ppt.git",
-         "web" : "https://github.com/briandfoy/ppt"
+         "url" : "git://github.com/briandfoy/PerlPowerTools.git",
+         "web" : "https://github.com/briandfoy/PerlPowerTools"
       }
    },
-   "version" : "1.002_02"
+   "version" : "1.003"
 }

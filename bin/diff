@@ -1,4 +1,16 @@
 #!/usr/bin/perl
+
+=for info
+
+Name: diff
+Description: compute 'intelligent' differences between two files
+Author: Mark-Jason Dominus, mjd-perl-diff@plover.com
+Author: Christian Murphy, cpm@muc.de
+Author: Amir D. Karger, karger@bead.aecom.yu.edu
+License: perl
+
+=cut
+
 #
 # `Diff' program in Perl
 # Copyright 1998 M-J. Dominus. (mjd-perl-diff@plover.com)
@@ -708,7 +720,7 @@ Algorithm::Diff - Compute `intelligent' differences between two files / lists
 
 =head1 SYNOPSIS
 
-  use Algorithm::Diff qw(diff LCS trverse_sequences);
+  use Algorithm::Diff qw(diff LCS traverse_sequences);
 
   @lcs = LCS(\@seq1, \@seq2, $comparison_function);
 

@@ -1,4 +1,13 @@
-#!/usr/local/bin/perl -w
+#!/usr/bin/perl
+
+=for info
+
+Name: arithmetic
+Description: improve your arithmetic skills
+Author: Abigail, abigail@fnx.com
+License: perl
+
+=cut
 
 use strict;
 use integer;

@@ -1,4 +1,13 @@
-#!/usr/local/bin/perl -w
+#!/usr/bin/perl
+
+=for info
+
+Name: yes
+Description: print out a string till doomsday
+Author: Abigail, abigail@fnx.com
+License: perl
+
+=cut
 
 use strict;
 

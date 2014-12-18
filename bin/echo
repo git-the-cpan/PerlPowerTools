@@ -1,4 +1,13 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
+
+=for info
+
+Name: echo
+Description: echo arguments
+Author: Randy Yarger, randy.yarger@nextel.com
+License: perl
+
+=cut
 
 use strict;
 

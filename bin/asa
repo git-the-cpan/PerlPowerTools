@@ -1,4 +1,13 @@
-#!/usr/local/bin/perl -w
+#!/usr/bin/perl
+
+=for info
+
+Name: asa
+Description: interpret ASA/FORTRAN carriage-controls
+Author: Jeffrey S. Haemer
+License: 
+
+=cut
 
 use strict;
 

@@ -1,4 +1,13 @@
-#!/usr/local/bin/perl -w
+#!/usr/bin/perl
+
+=for info
+
+Name: pwd
+Description: working directory name
+Author: Kevin Meltzer, perlguy@perlguy.com
+License: perl
+
+=cut
 
 use strict;
 use Cwd;

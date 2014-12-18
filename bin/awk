@@ -1,4 +1,15 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
+
+=for info
+
+Name: awk
+Description: pattern-directed scanning and processing language
+Author: Tom Christiansen, tchrist@perl.com
+Author: Larry Wall, larry@wall.org
+License: perl
+
+=cut
+
 # awk - front end for a2p
 
 use strict;
@@ -14,6 +25,7 @@ my(
 );
 
 END {
+	no warnings qw(uninitialized);
     unlink $tmpin, $tmpout; # XXX: don't check failure
     close STDOUT 	    || die "$0: can't close stdout: $!\n";
     $? = 1 if $? == 255;    # from die
