@@ -17,4 +17,4 @@ no_index:
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=PerlPowerTools
   repository: git://github.com/briandfoy/PerlPowerTools.git
-version: 1.003
+version: 1.004
