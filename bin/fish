@@ -1,16 +1,20 @@
 #!/usr/bin/perl
 
-=for info
+=begin metadata
 
 Name: fish
 Description: plays the children's game of Go Fish
 Author: Clinton Pierce, clintp@geeksalad.org
 License: perl
 
+=end metadata
+
 =cut
+
 
 use strict;
 use Getopt::Std;
+$Getopt::Std::STANDARD_HELP_VERSION = 1;
 
 my( @DECK, @PLAYERS_HAND, @COMPUTERS_HAND, @BOOKS, %BOOKS);
 my(@HIS_PAST_GUESSES, @MY_PAST_GUESSES);

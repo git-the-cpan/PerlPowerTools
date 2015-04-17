@@ -2,19 +2,31 @@
 abstract: 'BSD utilities written in pure Perl'
 author:
   - 'brian d foy <bdfoy@cpan.org>'
-build_requires: {}
+build_requires:
+  Test::More: '0.94'
+configure_requires:
+  ExtUtils::MakeMaker: '6.64'
+  File::Spec::Functions: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.132830'
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.140640'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: PerlPowerTools
 no_index:
   directory:
     - t
     - inc
+requires:
+  App::a2p: '0'
+  Curses: '0'
+  DB_File: '0'
+  MIME::Parser: '0'
+  Make: '0'
+  perl: '5.008'
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=PerlPowerTools
-  repository: git://github.com/briandfoy/PerlPowerTools.git
-version: 1.004
+  bugtracker: https://github.com/briandfoy/PerlPowerTools/issues
+  homepage: https://github.com/briandfoy/PerlPowerTools
+  repository: https://github.com/briandfoy/PerlPowerTools.git
+version: '1.005'
